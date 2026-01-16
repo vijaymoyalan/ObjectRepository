@@ -13132,7 +13132,7 @@
 				"value": "(//button[normalize-space()=\"Okay\"])[1]"
 		},
 		{
-				"name": "CancelButton",
+				"name": "Cancel",
 				"locator": "xpath",
 				"value": "(//button[normalize-space()=\"Cancel\"])[1]"
 		}
