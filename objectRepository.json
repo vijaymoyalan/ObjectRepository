@@ -15440,6 +15440,41 @@
 			"name": "AccountNameDropDown",
 			"locator": "xpath",
 			"value": "//button[@title=\"Open\"]//*[name()=\"svg\"]"
+				"name":"EnterAccountNumber",
+				"locator":"xpath",
+				"value":"(//input[@id=\"acNumber\"])[1]"
+				
+		},
+		{
+				"name":"PaymentMethodIFSC",
+				"locator":"xpath",
+				"value":"(//span[contains(text(),\"IFSC\")])[1]"
+				
+		},
+		{
+				"name":"PaymentMethodMMID",
+				"locator":"xpath",
+				"value":"(//span[contains(text(),\"MMID\")])[1]"
+				
+		},
+		{
+				"name":"PayeeName",
+				"locator":"xpath",
+				"value":"(//input[@id=\"payeeName\"])[1]"
+				
+		},
+		{
+				"name":"PayeeNickName",
+				"locator":"xpath",
+				"value":"(//input[@id=\"nickname\"])[1]"
+				
+		}
+	],
+"RIB_ExistingPPF":[
+		{
+				"name":"ExistingPPFAccount",
+				"locator":"xpath",
+				"value":"(//p[@class=\"MuiTypography-root MuiTypography-body1 InvestmentAccountBox__container__title css-9l3uo3\"][normalize-space()=\"Public Provident Fund\"])[1]"	
 		},
 		{
 			"name": "SavingAccountSelection",
@@ -15595,6 +15630,16 @@
 			"name": "NormalFixedDepositButton",
 			"locator": "xpath",
 			"value": "//button[contains(@class,'FdCard__card__toggleButton__first') and contains(normalize-space(.),'Normal Fixed Deposit')]"
+				"name":"PFMaturityDate",
+				"locator":"xpath",
+				"value":"(//p[normalize-space()=\"Maturity Date 2041-04-01\"])[1]"
+		}
+	],
+"TechnicalError":[
+		{
+				"name": "OkayButton",
+				"locator": "xpath",
+				"value": "(//button[normalize-space()=\"Okay\"])[1]"
 		}
 	]
 }
