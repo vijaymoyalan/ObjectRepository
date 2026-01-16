@@ -1,10 +1,5 @@
 {
 	"MFAPage": [
-	{
-			"name": "Example",
-			"locator": "Example",
-			"value": "Example"
-		},
 		{
 			"name": "SelectEnglish",
 			"locator": "xpath",
@@ -13135,6 +13130,11 @@
 				"name": "OkayButton",
 				"locator": "xpath",
 				"value": "(//button[normalize-space()=\"Okay\"])[1]"
+		},
+		{
+				"name": "CancelButton",
+				"locator": "xpath",
+				"value": "(//button[normalize-space()=\"Cancel\"])[1]"
 		}
 	]
 		
