@@ -1,5 +1,10 @@
 {
 	"MFAPage": [
+	{
+			"name": "Example",
+			"locator": "Example",
+			"value": "Example"
+		},
 		{
 			"name": "SelectEnglish",
 			"locator": "xpath",
